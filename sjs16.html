@@ -1,0 +1,20 @@
+<form>
+      enter sentence:
+     <input type="text" id="t1"><br>
+    <input type="button" value="change" onclick="show()"
+</form>
+<script>
+          function show()
+              {
+                       var s1=document.getElementById("t1").value;
+                            for(i=0;i<s1.length;i++)
+                {
+            if(s1[i]==" ")
+               document.write("*");
+           else if(s1[i]>="0" && s1[i]<="9")
+                 document.write("?");
+           else
+                  document.write(s1[i]);
+                   }
+              }
+</script>

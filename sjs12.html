@@ -1,0 +1,26 @@
+<form>
+       enter name:<br>
+       <input type="text" id="t1"><br>
+         enter address:<br>
+       <input type="text" id="t2"><br>
+         enter city:<br>
+       <input type="text" id="t3"><br>
+       enter pincode:<br>
+       <input type="text" id="t4"><br>
+      <input type="button" value="enter" onclick="check()"
+
+</form>
+    <script>
+        function check()
+            {
+                     var n=document.getElementById("t1").value;
+                     var a=document.getElementById("t2").value;
+                     var c=document.getElementById("t3").value;
+                     var p=document.getElementById("t4").value;
+                     if(n=="")
+                          alert("name should not empty");
+                    else if(p!=6)
+                          alert("pin-code should be 6 digit only");
+              }
+         
+</script>

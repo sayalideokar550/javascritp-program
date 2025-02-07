@@ -1,0 +1,14 @@
+<script>
+     var n=prompt("enter name");
+          var d1=new Date;
+             document.write(d1);
+           var h=d1.getHours();
+           if(h>12 && h<16)
+             document.write("good afternoon"+n);
+          else if(h>16 && h<20)
+           document.write("good evning"+n);
+          else if(h>20 && h<24)
+           document.write("good night"+n);
+          else 
+           document.write("good morning"+n);
+</script>

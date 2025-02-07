@@ -1,0 +1,18 @@
+     <form> 
+              eneter user name:<br>
+            <input type="text"  id="t1"><br>
+              eneter password: 
+              <input type="text" id="t2"><br>
+             <input type="button" value="login" onclick="check()">
+    </form>
+<script>
+        function check()
+              {
+      var n=document.getElementById("t1").value;
+      var p=document.getElementById("t2").value;
+       if((n=="sayali" )&&( p=="123456"))
+            window.location.href="TimeTable.html";
+        else
+               alert("invalied username and password");
+           }  
+</script>

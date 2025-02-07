@@ -1,0 +1,21 @@
+<form>
+       enter number:
+       <input type="text" id="t1"><br>
+      <input type="button" value="ok" onclick="show()">
+</form>
+<script>
+     function show()
+      {
+           var f=0;
+            var s=1;
+             var n=document.getElementById("t1").value;
+              document.write("series="+f,s);
+            for(i=1;i<n;i++)
+               {
+                        var t=f+s;
+                            document.write(" "+t);
+                               f=s;
+                               s=t;
+                     }
+      }
+</script>

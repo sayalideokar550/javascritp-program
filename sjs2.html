@@ -1,0 +1,16 @@
+<form>
+        enter number:
+        <input type="text" id="t1"><br>
+       <input type="button" value="enter" onclick="tab()">
+</form>
+    <script>
+      function tab()
+        {
+             var n=document.getElementById("t1").value;
+                var i;
+                 for(i=1;i<=10;i++)
+                      {
+                             document.write("<br>"+n*i);
+                        }
+        }
+</script>

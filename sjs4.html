@@ -1,0 +1,15 @@
+<script>
+    var n=prompt("enter number");
+          var s=0;
+              var n1=n;
+             while(n>0)
+                     {
+                            d=n%10;
+                             s=d*d*d+s;
+                             n=parseInt(n/10);
+                      }  
+                                      if(s==n1)
+                                                  document.write("number is armstrong");
+                                       else
+                                                 document.write("number is not armstrong");
+</script>
